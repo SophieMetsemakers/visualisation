@@ -1,0 +1,66 @@
+/***************************************************************************/
+/******************************* CSS Custom ********************************/
+/***************************************************************************/
+
+.image_custom {
+    width: auto;
+}
+
+/* anscombe.html */
+
+.anscombe_container1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.anscombe_container1 span {
+    margin: 0 auto;
+}
+
+.anscombe_container1 p {
+    width: 60%;
+    margin-top: 10px;
+}
+
+.anscombe_image1 {
+    height: 300px;
+}
+
+.anscombe_container2 {
+    text-align: center;
+}
+
+.anscombe_image2 {
+    height: 900px;
+}
+
+@media screen and (max-width: 767px) {
+    .anscombe_container1 {
+        display: block;
+        text-align: center;
+    }
+    
+    .anscombe_container1 p {
+        width: 100%;
+        text-align: left;
+    }
+    
+    .anscombe_image2 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* parcoursup.html */
+
+.mosaic img {
+    margin-bottom: 20px;
+}
+
+.parcoursup_image1 img {
+    width: 75%;
+}
+
+.parcoursup_images img {
+    width: 60%;
+}

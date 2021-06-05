@@ -3328,13 +3328,5 @@ input, select, textarea {
 
 		}
 
-/* CSS perso */ 
-.mosaic{
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-}
-.mosaic > *{
-   min-width:300px;
-    max-width:500px;
+
 }
